@@ -1,0 +1,2176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluaciones y Trabajos de 2°6</title>
+
+</head>
+<style>
+   
+   
+   @media (min-width: 1000px) 
+   {
+#titulo {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+#totales{
+
+
+font-size:20px;
+font-family: Arial, Helvetica, sans-serif;
+text-align:center;
+color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    height: 100vh; 
+    background-image: url('https://static.vecteezy.com/system/resources/previews/002/434/215/large_2x/elegant-black-background-with-stylish-gold-business-presentation-banner-design-vector.jpg');
+    background-size: cover;
+    margin: 0; 
+}
+
+.contenedor-botones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#Dibujo-Técnico {
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 240px;
+    height: 60px;
+
+}
+
+#Dibujo-Técnico:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+#Historia {
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 240px;
+    height: 60px;
+
+}
+
+#Historia:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+    
+}
+#Matemática {
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 240px;
+    height: 60px;
+
+}
+
+#Matemática:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+#Ingles {
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 240px;
+    height: 60px;
+
+}
+
+#Ingles:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+#Biología {
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 240px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 0px;
+
+}
+
+#Biología:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+#Geografía{
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 240px;
+    height: 60px;
+    margin-top: 0px;
+    margin-left: 0px;
+
+}
+
+#Geografía:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+#Física {
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 240px;
+    height: 60px;
+    margin-top:0px;
+    margin-left: 0px;
+}
+
+#Física:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+#Taller {
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 240px;
+    height: 60px;
+    margin-top: 0px;
+    margin-left: 0px;
+
+}   
+
+#Taller:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+#Lengua-y-Literatura {
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 240px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 0px;
+
+}
+
+#Lengua-y-Literatura:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+#Educación-Ciudadana {
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 240px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 490px;
+    text-align:relative;
+
+}
+
+#Educación-Ciudadana:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+
+.cuadrado {
+        width: 480px;
+        height: 500px;
+        margin: 10px;
+        display: none;
+        margin-top:-80px ;
+        margin-left:250px;
+
+    }
+    #cuadradoDibujo-Técnico {
+    position: relative; 
+    background-image: url('https://i0.wp.com/www.ms-ingenieria.com.mx/wp-content/uploads/2018/11/Normas-B%C3%A1sicas-del-Dibujo-T%C3%A9cnico.jpg?fit=1200%2C675&ssl=1');
+    background-size: cover;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    width:480px ;
+    height:500px;
+}
+
+#cuadradoDibujo-Técnico::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
+#cuadradoDibujo-Técnico p {
+    position: relative; 
+    z-index: 1; 
+    padding: 20px;
+}
+    #cuadradoHistoria {
+        background-image:url('https://portal.fgv.br/sites/portal.fgv.br/files/styles/noticia_geral/public/noticias/ago/17/historia.jpg?itok=j3vcc5FM&c=33313733cdad61e4bd51beabb4a84531');
+        font-size:16px;
+        font-family: Arial, Helvetica, sans-serif;
+         }
+         
+         #cuadradoMatemática {
+    position: relative; 
+    background-image: url('http://misimagenesde.com/wp-content/uploads/2017/05/imagenes-de-matematicas-3.jpg');
+    background-size: cover;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    width:480px ;
+    height:500px;
+}
+
+#cuadradoMatemática::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
+#cuadradoMatemática p {
+    position: relative; 
+    z-index: 1; 
+    padding: 20px;
+}
+#cuadradoIngles {
+    position: relative; 
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-libro-ingles-dibujado-mano_23-2149483336.jpg');
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    width:480px ;
+    height:500px;
+}
+
+#cuadradoIngles::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
+#cuadradoIngles p {
+    position: relative; 
+    z-index: 1; 
+    padding: 20px;
+}
+    #cuadradoBiología {         
+        background-image:url('https://static.vecteezy.com/system/resources/thumbnails/023/042/077/small_2x/human-cell-biology-dna-strands-molecular-structure-illustration-generate-ai-free-photo.jpg');
+        font-size:16px;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+    #cuadradoGeografía {       
+         background-image:url('data:image/jpeg;base64,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');
+        background-size: cover;
+         background-position: center;
+         font-size:16px;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+    #cuadradoLengua-y-Literatura {         
+        background-image:url('https://www.iesalbero.es/wp-content/uploads/2018/08/lengua-literatura-820x400.jpg');
+        background-size: cover;
+        background-position: center;
+        font-size:16px;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+    #cuadradoEducación-Ciudadana {
+    position: relative; 
+    background-image: url('https://economipedia.com/wp-content/uploads/Estado.jpg');
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    width:480px ;
+    height:500px;
+}
+
+#cuadradoEducación-Ciudadana::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
+#cuadradoEducación-Ciudadana p {
+    position: relative; 
+    z-index: 1; 
+    padding: 20px;
+}
+    #cuadradoFísica {
+    position: relative; 
+    background-image: url('https://st4.depositphotos.com/2673929/21620/i/450/depositphotos_216201272-stock-photo-glowing-gold-blue-atom-model.jpg');
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    width:480px ;
+    height:500px;
+}
+
+#cuadradoFísica::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
+#cuadradoFísica p {
+    position: relative; 
+    z-index: 1; 
+    padding: 20px;
+}
+    #cuadradoTaller {       
+        background-image:url('');
+        font-size:16px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .titulo-asignaturas{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+    
+    
+    
+    .texto-asignaturas
+{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.espacio {
+        margin-bottom: 20px;
+    }
+
+
+    .main {
+    max-width: 1000px;
+    width: 100%; 
+    margin: auto; 
+    }
+   }
+   @media(max-width:500px)
+   {
+    #titulo {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+#totales{
+
+
+font-size:20px;
+font-family: Arial, Helvetica, sans-serif;
+text-align:center;
+color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    height: 100vh; 
+    background-image: url('https://static.vecteezy.com/system/resources/previews/002/434/215/large_2x/elegant-black-background-with-stylish-gold-business-presentation-banner-design-vector.jpg');
+    background-size: cover;
+    margin: 0; 
+}
+
+.contenedor-botones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#Dibujo-Técnico {
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+    margin:auto;
+}
+
+#Dibujo-Técnico:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+#Historia {
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+    margin:auto;
+}
+
+#Historia:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+    
+}
+#Matemática {
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+    margin:auto;
+}
+
+#Matemática:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+#Ingles {
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+    margin:auto;
+}
+
+#Ingles:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+#Biología {
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+    margin:auto;
+}
+
+#Biología:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+#Geografía{
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+    margin:auto;
+}
+
+#Geografía:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+#Física {
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+    margin:auto;
+}
+
+#Física:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+#Taller {
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+    margin:auto;
+}   
+
+#Taller:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+#Lengua-y-Literatura {
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; 
+    margin:auto;
+
+}
+
+#Lengua-y-Literatura:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+#Educación-Ciudadana {
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin-top: -20px; 
+    margin:auto;
+
+}
+
+#Educación-Ciudadana:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+
+.cuadrado {
+        width: 380px;
+        height: 500px;
+        margin: 10px;
+        display: none;
+        margin-top:0px ;
+        margin-left:8px;
+        margin:auto;
+    }
+    #cuadradoDibujo-Técnico {
+    position: relative; 
+    background-image: url('https://i0.wp.com/www.ms-ingenieria.com.mx/wp-content/uploads/2018/11/Normas-B%C3%A1sicas-del-Dibujo-T%C3%A9cnico.jpg?fit=1200%2C675&ssl=1');
+    background-size: cover;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    width:380px ;
+    height:500px;
+}
+
+#cuadradoDibujo-Técnico::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
+#cuadradoDibujo-Técnico p {
+    position: relative; 
+    z-index: 1; 
+    padding: 20px;
+}
+    #cuadradoHistoria {
+        background-image:url('https://portal.fgv.br/sites/portal.fgv.br/files/styles/noticia_geral/public/noticias/ago/17/historia.jpg?itok=j3vcc5FM&c=33313733cdad61e4bd51beabb4a84531');
+        font-size:16px;
+        font-family: Arial, Helvetica, sans-serif;
+         }
+         
+         #cuadradoMatemática {
+    position: relative; 
+    background-image: url('http://misimagenesde.com/wp-content/uploads/2017/05/imagenes-de-matematicas-3.jpg');
+    background-size: cover;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    width:380px ;
+    height:500px;
+}
+
+#cuadradoMatemática::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
+#cuadradoMatemática p {
+    position: relative; 
+    z-index: 1; 
+    padding: 20px;
+}
+#cuadradoIngles {
+    position: relative; 
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-libro-ingles-dibujado-mano_23-2149483336.jpg');
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    width:380px ;
+    height:500px;
+}
+
+#cuadradoIngles::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
+#cuadradoIngles p {
+    position: relative; 
+    z-index: 1; 
+    padding: 20px;
+}
+    #cuadradoBiología {         
+        background-image:url('https://static.vecteezy.com/system/resources/thumbnails/023/042/077/small_2x/human-cell-biology-dna-strands-molecular-structure-illustration-generate-ai-free-photo.jpg');
+        font-size:16px;
+        font-family: Arial, Helvetica, sans-serif; 
+        background-size: cover;
+    }
+    #cuadradoGeografía {       
+         background-image:url('data:image/jpeg;base64,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');
+        background-size: cover;
+         background-position: center;
+         font-size:16px;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+    #cuadradoLengua-y-Literatura {         
+        background-image:url('https://www.iesalbero.es/wp-content/uploads/2018/08/lengua-literatura-820x400.jpg');
+        background-size: cover;
+        background-position: center;
+        font-size:16px;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+    #cuadradoEducación-Ciudadana {
+    position: relative; 
+    background-image: url('https://economipedia.com/wp-content/uploads/Estado.jpg');
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    width:380px ;
+    height:500px;
+}
+
+#cuadradoEducación-Ciudadana::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
+#cuadradoEducación-Ciudadana p {
+    position: relative; 
+    z-index: 1; 
+    padding: 20px;
+}
+    #cuadradoFísica {
+    position: relative; 
+    background-image: url('https://st4.depositphotos.com/2673929/21620/i/450/depositphotos_216201272-stock-photo-glowing-gold-blue-atom-model.jpg');
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    width:380px ;
+    height:500px;
+}
+
+#cuadradoFísica::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
+#cuadradoFísica p {
+    position: relative; 
+    z-index: 1; 
+    padding: 20px;
+}
+    #cuadradoTaller {       
+        background-image:url('');
+        font-size:16px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .titulo-asignaturas{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+    
+    
+    
+    .texto-asignaturas
+{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.espacio {
+        margin-bottom: 20px;
+    }
+
+
+    .main {
+    max-width: 1000px;
+    width: 100%; 
+    margin: auto; 
+    }
+
+   }
+   
+   @media (min-width:501px),(max-width:997px) {
+    #titulo {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+#totales{
+
+
+font-size:20px;
+font-family: Arial, Helvetica, sans-serif;
+text-align:center;
+color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    height: 100vh; 
+    background-image: url('https://static.vecteezy.com/system/resources/previews/002/434/215/large_2x/elegant-black-background-with-stylish-gold-business-presentation-banner-design-vector.jpg');
+    background-size: cover;
+    margin: 0; 
+}
+
+.contenedor-botones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#Dibujo-Técnico {
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 240px;
+    height: 60px;
+
+}
+
+#Dibujo-Técnico:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+#Historia {
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 240px;
+    height: 60px;
+
+}
+
+#Historia:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+    
+}
+#Matemática {
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 240px;
+    height: 60px;
+
+}
+
+#Matemática:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+#Ingles {
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 240px;
+    height: 60px;
+
+}
+
+#Ingles:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+#Biología {
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 240px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 0px;
+
+}
+
+#Biología:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+#Geografía{
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 240px;
+    height: 60px;
+    margin-top: 0px;
+    margin-left: 0px;
+
+}
+
+#Geografía:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+#Física {
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 240px;
+    height: 60px;
+    margin-top:0px;
+    margin-left: 0px;
+}
+
+#Física:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+#Taller {
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 240px;
+    height: 60px;
+    margin-top: 0px;
+    margin-left: 0px;
+
+}   
+
+#Taller:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+#Lengua-y-Literatura {
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 240px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 0px;
+
+}
+
+#Lengua-y-Literatura:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+#Educación-Ciudadana {
+    background: black;
+    cursor: pointer;
+    border: none;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+    width: 240px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 490px;
+    text-align:relative;
+
+}
+
+#Educación-Ciudadana:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+    background-size: 800%;
+    border-radius: 12px;
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+
+.cuadrado {
+        width: 480px;
+        height: 500px;
+        margin: 10px;
+        display: none;
+        margin-top:-80px ;
+        margin-left:250px;
+
+    }
+    #cuadradoDibujo-Técnico {
+    position: relative; 
+    background-image: url('https://i0.wp.com/www.ms-ingenieria.com.mx/wp-content/uploads/2018/11/Normas-B%C3%A1sicas-del-Dibujo-T%C3%A9cnico.jpg?fit=1200%2C675&ssl=1');
+    background-size: cover;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    width:480px ;
+    height:500px;
+}
+
+#cuadradoDibujo-Técnico::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
+#cuadradoDibujo-Técnico p {
+    position: relative; 
+    z-index: 1; 
+    padding: 20px;
+}
+    #cuadradoHistoria {
+        background-image:url('https://portal.fgv.br/sites/portal.fgv.br/files/styles/noticia_geral/public/noticias/ago/17/historia.jpg?itok=j3vcc5FM&c=33313733cdad61e4bd51beabb4a84531');
+        font-size:16px;
+        font-family: Arial, Helvetica, sans-serif;
+         }
+         
+         #cuadradoMatemática {
+    position: relative; 
+    background-image: url('http://misimagenesde.com/wp-content/uploads/2017/05/imagenes-de-matematicas-3.jpg');
+    background-size: cover;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    width:480px ;
+    height:500px;
+}
+
+#cuadradoMatemática::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
+#cuadradoMatemática p {
+    position: relative; 
+    z-index: 1; 
+    padding: 20px;
+}
+#cuadradoIngles {
+    position: relative; 
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-libro-ingles-dibujado-mano_23-2149483336.jpg');
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    width:480px ;
+    height:500px;
+}
+
+#cuadradoIngles::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
+#cuadradoIngles p {
+    position: relative; 
+    z-index: 1; 
+    padding: 20px;
+}
+    #cuadradoBiología {         
+        background-image:url('https://static.vecteezy.com/system/resources/thumbnails/023/042/077/small_2x/human-cell-biology-dna-strands-molecular-structure-illustration-generate-ai-free-photo.jpg');
+        font-size:16px;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+    #cuadradoGeografía {       
+         background-image:url('data:image/jpeg;base64,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');
+        background-size: cover;
+         background-position: center;
+         font-size:16px;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+    #cuadradoLengua-y-Literatura {         
+        background-image:url('https://www.iesalbero.es/wp-content/uploads/2018/08/lengua-literatura-820x400.jpg');
+        background-size: cover;
+        background-position: center;
+        font-size:16px;
+        font-family: Arial, Helvetica, sans-serif; 
+    }
+    #cuadradoEducación-Ciudadana {
+    position: relative; 
+    background-image: url('https://economipedia.com/wp-content/uploads/Estado.jpg');
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    width:480px ;
+    height:500px;
+}
+
+#cuadradoEducación-Ciudadana::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
+#cuadradoEducación-Ciudadana p {
+    position: relative; 
+    z-index: 1; 
+    padding: 20px;
+}
+    #cuadradoFísica {
+    position: relative; 
+    background-image: url('https://st4.depositphotos.com/2673929/21620/i/450/depositphotos_216201272-stock-photo-glowing-gold-blue-atom-model.jpg');
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    width:480px ;
+    height:500px;
+}
+
+#cuadradoFísica::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); 
+}
+
+#cuadradoFísica p {
+    position: relative; 
+    z-index: 1; 
+    padding: 20px;
+}
+    #cuadradoTaller {       
+        background-image:url('');
+        font-size:16px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .titulo-asignaturas{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+    
+    
+    
+    .texto-asignaturas
+{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.espacio {
+        margin-bottom: 20px;
+    }
+
+
+    .main {
+    max-width: 1000px;
+    width: 100%; 
+    margin: auto; 
+    }
+
+   }
+
+</style>
+<body>
+
+    <div class="main">
+
+    <div id="body"></div>
+    <h1 id="titulo">Aquí encontrarás todas las fechas de evaluaciones y tareas del curso</h1>
+    <h2 id="totales">Evaluaciones: 4 <br class="espacio"> PIA: 2
+        <br>
+        Tareas: 2 <br class="espacio"> Trabajos Prácticos: 6
+    </h2>
+
+
+    <button id="Dibujo-Técnico">Dibujo Técnico</button>
+    <button id="Historia">Historia</button>
+    <button id="Matemática">Matemática</button>
+    <button id="Ingles">Inglés</button>
+    <button id="Biología">Biología</button>
+    <button id="Geografía">Geografía</button>
+    <button id="Física">Física</button>
+    <button id="Taller">Taller</button>
+    <button id="Lengua-y-Literatura">Lengua y Literatura</button>
+    <button id="Educación-Ciudadana">Educación Ciudadana</button>
+    
+    <div id="cuadradoDibujo-Técnico" class="cuadrado">
+        <h1 class="titulo-asignaturas">Dibujo Técnico</h1>
+        <p class="texto-asignaturas">Evaluaciones:3/7</p>
+        <p class="texto-asignaturas">Entrega Láminas:No hay ninguna :]</p>
+        <p class="texto-asignaturas">Entrega Calitecno:1/7</p>
+        <p class="texto-asignaturas">Profesora:Monica Morales</p>
+    </div>
+    <div id="cuadradoHistoria" class="cuadrado">
+        <h1 class="titulo-asignaturas">Historia</h1>
+        <p class="texto-asignaturas">Evaluaciones:</p>
+        <p class="texto-asignaturas">Tareas:</p>
+        <p class="texto-asignaturas">Trabajos Prácticos: Presentación Renacimiento:1/7</p>
+        <p class="texto-asignaturas">Profesora:Viviana Narcisi</p>
+    </div>
+    <div id="cuadradoMatemática" class="cuadrado">
+    <h1 class="titulo-asignaturas">Matemática</h1>
+    <p class="texto-asignaturas">Evaluaciones:</p>
+    <p class="texto-asignaturas">Tareas:</p>
+    <p class="texto-asignaturas">Trabajos Prácticos: Recuperatorio pág 61 & 62 1/7</p>
+    <p class="texto-asignaturas">Profesor: Julian Leonardi</p>
+</div>
+    <div id="cuadradoIngles" class="cuadrado">
+        <h1 class="titulo-asignaturas">Ingles</h1>
+        <p class="texto-asignaturas">Evaluaciones: 30/7 Verbos Irregulares a-e </p>
+        <p class="texto-asignaturas">PIA:2/7</p>
+        <p class="texto-asignaturas">Tareas:</p>
+        <p class="texto-asignaturas">Trabajos Prácticos:</p>
+        <p class="texto-asignaturas">Profesora:Maria Stul</p>
+    </div>
+    
+    <div id="cuadradoBiología" class="cuadrado">
+        <h1 class="titulo-asignaturas">Biología</h1>
+        <p class="texto-asignaturas">Evaluaciones:</p> 
+        <p class="texto-asignaturas">Tareas:</p>
+        <p class="texto-asignaturas">Trabajos Prácticos: Punto 1 y 2 2/7</p>
+        <p class="texto-asignaturas">Profesora:Griselda Nieto</p>
+    </div>
+    <div id="cuadradoGeografía" class="cuadrado">
+        <h1 class="titulo-asignaturas">Geografía</h1>
+        <p class="texto-asignaturas">Evaluaciones:</p>
+        <p class="texto-asignaturas">Tareas:Mapa América 2/7
+            Pág 85 y 87 preguntas 2/7
+        </p>
+        <p class="texto-asignaturas">Trabajos Prácticos:</p>
+        <p class="texto-asignaturas">Profesora:Cortez Torres</p>
+    </div>
+    <div id="cuadradoFísica" class="cuadrado">    
+        <h1 class="titulo-asignaturas">Física</h1>
+        <p class="texto-asignaturas">Evaluaciones: 4/7 Metrología</p>
+        <p class="texto-asignaturas">Tareas:</p>
+        <p class="texto-asignaturas">Trabajos Prácticos: MRUV</p>
+        <p class="texto-asignaturas">Profesor:Claudio Garbuio </p>
+        <p class="texto-asignaturas">Suplente: Alejandra Abraham</p>    
+    </div>
+    <div id="cuadradoTaller" class="cuadrado">
+
+        <h1 class="titulo-asignaturas">Taller</h1>
+        <p class="texto-asignaturas">Grupo 1:Mecanismos y motores</p>
+        <p class="texto-asignaturas">Evaluación:26/8</p>
+        <p class="texto-asignaturas">Profesores:</p>
+
+        <p class="texto-asignaturas">Grupo 2:Electrónica y Computación</p>
+        <p class="texto-asignaturas">Tareas:</p>
+        <p class="texto-asignaturas">Profesores:Diego Salvarezza y Federico Marazzi</p>
+
+        <p class="texto-asignaturas">Grupo 3:Metrología</p>
+        <p class="texto-asignaturas">Tareas y Evaluaciones:</p>
+        <p class="texto-asignaturas">Profesores:Alfredo Deri y Mathías Dour</p>
+        
+    </div>
+    <div id="cuadradoLengua-y-Literatura" class="cuadrado">
+        <h1 class="titulo-asignaturas">Lengua y Literatura</h1>
+        <p class="texto-asignaturas">Evaluaciones: Evaluación Cuatrimestra, Pronombres, Verbos, Policial:10/7</p>
+        <p class="texto-asignaturas">Tareas: Traer Cuadernillo Nuevo 3/7</p>
+        <p class="texto-asignaturas">Trabajos Prácticos:</p>
+        <p class="texto-asignaturas">Profesora:Rocio Molina</p>
+    </div>
+    <div id="cuadradoEducación-Ciudadana" class="cuadrado">    
+        <h1 class="titulo-asignaturas">Educación Ciudadana</h1>
+        <p class="texto-asignaturas">Evaluaciones:</p>
+        <p class="texto-asignaturas">PIA:4/7</p>
+        <p class="texto-asignaturas">Tareas:</p>
+        <p class="texto-asignaturas">Trabajos Prácticos:</p>
+        <p class="texto-asignaturas">Profesora: Paola Battafarano</p>
+        
+    </div>
+    </div>
+</body>
+</html>
+<script>
+            function mostrarCuadrado(id) {
+            var cuadrados = document.querySelectorAll('.cuadrado');
+            cuadrados.forEach(function(cuadrado) {
+                cuadrado.style.display = 'none';
+            });
+            
+            var cuadrado = document.getElementById('cuadrado' + id);
+            cuadrado.style.display = 'block';
+        }
+        var botones = document.querySelectorAll('button');
+        botones.forEach(function(boton) {
+            boton.addEventListener('click', function() {
+                var id = boton.id;
+                mostrarCuadrado(id);
+            });
+        });
+</script>
